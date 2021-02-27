@@ -1,0 +1,6 @@
+scrapper: 
+  handler: scrapper/index.scrapper
+  events:
+    - http:
+        path: scrapper
+        method: post
